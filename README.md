@@ -6,6 +6,7 @@ Spring MVC Demo Project
 1) This Project will give basic example of using Spring MVC and Hibernate to do CRUD operations on Database.
 2) Used MySQL database to store the data.
 3) Use the below table syntax to create a table in a database.
+
           CREATE TABLE `books` (
           	`id` INT(10) NOT NULL AUTO_INCREMENT,
           	`book_name` VARCHAR(100) NOT NULL,
@@ -17,6 +18,7 @@ Spring MVC Demo Project
           COLLATE='utf8_general_ci'
           ENGINE=InnoDB
           AUTO_INCREMENT=2;
+          
 4) The Database name i used is 'bookstore'. You can use your own database name and database table name.
 But, make sure that you do the same name changes in Book.java class aswell.
 5) Due to static resource loading problem using <mvc:resources> tag, i didn't add jquery and scripting validations
